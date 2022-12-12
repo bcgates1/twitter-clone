@@ -1,0 +1,208 @@
+.right-bar {
+
+    width: 350px;
+    padding-left: 20px;
+    color: white;
+    max-height: 1000px;
+
+}
+
+.search {
+    display: flex;
+    position: fixed;
+    padding-top: 4px;
+
+
+}
+
+.search-twitter-img img {
+
+    width: 30px;
+    height: 45px;
+    border-radius: 15px 0px 0px 15px;
+
+}
+
+.search-twitter input {
+
+    width: 318px;
+    height: 43px;
+    border-radius: 0px 13px 13px 0px;
+    background-color: rgb(32, 35, 39);
+    border: none;
+    color: white;
+
+}
+
+.search-twitter ::placeholder {
+    font-size: 1rem;
+}
+
+.whats-happening {
+    padding-top: 15px;
+    padding-left: 18px;
+    border-radius: 20px;
+    background-color: rgb(32, 35, 39);
+    margin-bottom: 20px;
+    height: 392px;
+    margin-top: 80px;
+
+}
+
+.whats-happening-header {
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: white;
+    height: 40px;
+
+}
+
+.sports-live {
+    display: flex;
+
+}
+
+.sports-live-col {
+    width: 157px;
+}
+
+.sports-live-heading {
+    color: grey;
+    font-size: .8rem;
+    height: 20px;
+
+}
+
+.sports-live-sub-heading {
+    color: white;
+    font-weight: 800;
+}
+
+.sports-live-img {
+    padding-left: 65px;
+}
+
+.sports-live-img img {
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+
+}
+
+.trending {
+    display: flex;
+    line-height: 24px;
+    margin-bottom: 10px;
+
+
+}
+
+.trending-row1 {
+    color: grey;
+    font-size: small;
+    width: 269px;
+
+}
+
+.trending-row2 {
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.trending-row3 {
+    color: gray;
+    font-size: .8rem;
+}
+
+.trending img {
+
+    height: 15px;
+    align-items: flex-end;
+}
+
+.show-more {
+    color: rgb(29, 155, 240);
+
+}
+
+.who-to-follow-row {
+    background-color: rgb(32, 35, 39);
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+
+}
+
+
+.who-to-follow-heading {
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+
+
+}
+
+.who-to-follow-list {
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+
+}
+
+.who-to-follow {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+
+}
+
+.follow-profile-pic img {
+    width: 50px;
+    border-radius: 25px;
+
+}
+
+.who-to-follow-col {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+
+}
+
+.follow-heading {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.follow-profile-tag {
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.follow-button {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    width: 63px;
+    height: 30px;
+    padding-top: 13px;
+    padding-left: 4px;
+    font-weight: 900;
+    display: inline;
+    text-align: center;
+
+}
+
+.footer-row1,
+.footer-row2,
+.footer-row3 {
+    display: flex;
+    gap: 12px;
+    font-size: small;
+    line-height: 22px;
+    color: grey;
+
+}
